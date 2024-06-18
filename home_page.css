@@ -1,0 +1,47 @@
+#navigation-bar{
+  display: flex;
+
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  background-color: rgb(rgb(0, 1, 77));
+  height:50px
+}
+.nav-div{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 1, 54);
+  border-radius: 15px;
+  border: solid;
+  
+   border: 0px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  min-width: 150px;
+  color: white;
+  text-align:center;
+
+
+}
+#logo{
+  
+  height: 90px;
+}
+#logo-div{
+font-family: Arial;
+}
+#content{
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+}
+body{
+  margin:0px;
+}
+#menu{
+  border:solid;
+  background-color: rgb(255, 255, 255);
+  border-width: 10px;
+  border-color: rgb(0, 16, 61);
+  flex:1;
+  min-width: 200px;
+}
